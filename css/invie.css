@@ -67,19 +67,25 @@ input:focus,textarea:focus{
   font-size: 35px;
 }
 .background{
-  background-image: url("../images/background.png");
-  background-size: cover;
+  background-color: #027d8e;
+  /*background-image: url("../images/background.png");
+  background-size: cover;*/
 }
 .portada{
   color: white;
   padding: 20px;
-  height: 500px;
+  height: 6em;
 }
 .portada button{
 margin-bottom: 70px;
 }
 .contenedor{
   width: 800px;
+  margin: auto;
+  position: relative;
+}
+.header.contenedor{
+  width: 1000px;
   margin: auto;
   position: relative;
 }
@@ -92,14 +98,16 @@ margin-bottom: 70px;
   display: inline-block;
   position: absolute;
   right: 0;
+  font-family: 'Roboto', sans-serif;
 }
 .menu li{
+  
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 20px;
   }
 .menu li:before{
-  content: '∘';
-  font-size: 50px;
+  content: '|';
+  font-size: 25px;
   line-height: 20px;
   color: white;
 }

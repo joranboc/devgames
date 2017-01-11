@@ -62,7 +62,7 @@ input:focus,textarea:focus{
   font-size: 50px;
   margin-bottom: 20px;
 }
-.guitarras h2{
+.Articulos h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
 }
@@ -89,9 +89,10 @@ margin-bottom: 70px;
   margin: auto;
   position: relative;
 }
-.guitarras{
+.Articulos{
+  align-items: center;
   color: #1F313F;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .menu{
   font-size: 24px;
@@ -101,7 +102,7 @@ margin-bottom: 70px;
   font-family: 'Roboto', sans-serif;
 }
 .menu li{
-  
+
   display: inline-block;
   margin-left: 20px;
   }
@@ -120,7 +121,7 @@ margin-bottom: 70px;
   margin-left: 0;
 }
 
-.guitarra{
+.Video{
   margin: 10px 10px 40px 10px;
   padding: 10px;
   border: 1px solid #1F313F;
@@ -153,7 +154,7 @@ padding-left: 20px;
   position: relative;
 }
 .footer{
-  background: #273b47;
+  background: #027d8e;
   padding: 50px 10px;
 }
 .contacto img{
@@ -167,40 +168,22 @@ padding-left: 20px;
   text-decoration: none;
   margin: 10px 10px 10px 0;
 }
+
 .contacto{
   display: flex;
-  width: 300px;
+  margin-left: 450px;
+  width: 350px;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;;
 }
+
 .footer .contenedor{
   display: flex;
-  justify-content: space-between;
+
 }
-.formulario{
-  display: flex;
-  width: 400px;
-  color: white;
+.padding{
+  padding-top: 5px;
 }
-.col1,.col2{
-  display: flex;
-  flex-direction: column;
-}
-.col1{
-  margin-right: 15px;
-}
-.col2{
-  align-items: flex-start;
-}
-.col2 .button{
-  margin-top: 15px;
-}
-.intereses label{
-  font-size: 12px;
-}
-.formulario label, .sexo,.intereses{
-  margin-bottom: 10px;
-}
-.sexo{
-  margin-top: 10px;
+.padding1{
+  padding-top: 10px;
 }
